@@ -1,0 +1,521 @@
+{
+    "intents": [
+        {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye"
+        ],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Thank's a lot!"
+        ],
+        "responses": [
+          "Happy to help!",
+          "Any time!",
+          "My pleasure"
+        ]
+      },
+      {
+        "tag": "fees",
+        "patterns": [
+          "What is the fees for Computer Engineering?",
+          "What is the fees for Civil Engineering?",
+          "What is the fees for Mechanical Engineering?",
+          "What is the fees for Electrical Engineering?",
+          "What is the fees for IT Engineering?"
+        ],
+        "responses": [
+          "You have to pay fees : 44,800"
+        ]
+      },
+      {
+        "tag": "intake computer",
+        "patterns": [
+          "What is the intake for Computer Engineering??",
+          "intake computer"
+        ],
+        "responses": [
+          "There is a intake of 180 students in Computer Engineering."
+        ]
+      },
+      {
+        "tag": "intake civil",
+        "patterns": [
+          "What is the intake for Civil Engineering??",
+          "intake civil"
+        ],
+        "responses": [
+          "There is a intake of 120 students in Civil Engineering."
+        ]
+      },
+      {
+        "tag": "intake mechanical",
+        "patterns": [
+          "What is the intake for Mechanical Engineering??",
+          "intake mechanical"
+        ],
+        "responses": [
+          "There is a intake of 60 students in Mechanical Engineering."
+        ]
+      },
+      {
+        "tag": "intake electrical",
+        "patterns": [
+          "What is the intake for Electrical Engineering??",
+          "intake electrical"
+        ],
+        "responses": [
+          "There is a intake of 60 students in Electrical Engineering."
+        ]
+      },
+      {
+        "tag": "intake it",
+        "patterns": [
+          "What is the intake for IT Engineering??",
+          "intake IT"
+        ],
+        "responses": [
+          "There is a intake of 120 students in IT Engineering."
+        ]
+      },
+      {
+        "tag": "scolarship",
+        "patterns": [
+          "Can we get Scolarship?",
+          "Is scolarship applicable for us?",
+          "Do you have any scholarship options?",
+          "What about Scholarships?"
+        ],
+        "responses": [
+          "Yes, if you fill the Scholarship form then you will get Scholarship",
+          "Yes, we have several scholarship options for eligible students."
+        ]
+      },
+      {
+        "tag": "sports",
+        "patterns": [
+          "Does college have sports?",
+          "Can we play sports?"
+        ],
+        "responses": [
+          "Sure, college has big playground where you play sports",
+          "Yes, you can play various games on playground"
+        ]
+      },
+      {
+        "tag": "college name",
+        "patterns": [
+          "What is the name of your college?",
+          "college name"
+        ],
+        "responses": [
+          "Our college is called Eduford College."
+        ]
+      },
+      {
+        "tag": "location",
+        "patterns": [
+          "Where is your college located?",
+          "college location"
+        ],
+        "responses": [
+          "Our college is located in the city of ABC."
+        ]
+      },
+      {
+        "tag": "branches",
+        "patterns": [
+          "How many branches do you have?"
+        ],
+        "responses": [
+          "We have 6 branches in total."
+        ]
+      },
+      {
+        "tag": "application",
+        "patterns": [
+          "What is the application deadline?"
+        ],
+        "responses": [
+          "The application deadline is typically in the month of June."
+        ]
+      },
+      {
+        "tag": "courses",
+        "patterns": [
+          "What courses do you offer?"
+        ],
+        "responses": [
+          "We offer a variety of courses in Engineering like Computer Engineering, Civil Engineering, Mechanical Engineering, Electrical Engineering, IT Engineering and E & TC Engineering."
+        ]
+      },
+      {
+        "tag": "library",
+        "patterns": [
+          "What is the library like?"
+        ],
+        "responses": [
+          "Our library is modern and well."
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      },
+        {
+        "tag": "admission requirements?",
+        "patterns": [
+          "What about admission process?"
+        ],
+        "responses": [
+          "You can apply for admission by filling out an online application form.",
+          "The admission process starts in the month of May.",
+          "The admission requirements include a minimum GPA of 3.0 and a recommendation letter.",
+          "You will need to submit your high school transcripts, a copy of your ID, and a passport-sized photograph."
+        ]
+      },
+      {
+        "tag": "Campus Life Patterns",
+        "patterns": [
+          "What is the campus like?",
+          "Are there any student clubs or organizations?",
+          "What kinds of events are held on campus?",
+          "Is there a student center?",
+          "What are the dining options on campus?"
+        ],
+        "responses": [
+          "Our campus is spread over 100 acres and has modern facilities",
+          "Yes, we have a variety of student clubs and organizations.",
+          "We hold cultural festivals, career fairs, and sporting events on campus.",
+          "The student center has a gym, a library, and a lounge area.",
+          "We have several dining options on campus, including a cafeteria, a coffee shop, and a food court."
+        ]
+      },
+        {
+        "tag": "Accomodation Patterns",
+        "patterns": [
+          "Is there on-campus housing available?",
+          "What are the accommodation options for students?",
+          "How much does on-campus housing cost?",
+          "Is there a shuttle service to and from campus?",
+          "Are there any off-campus housing options nearby?"
+        ],
+        "responses": [
+          "Yes, we have on-campus housing options available for students.",
+          "We offer dormitory-style rooms and apartments for students.",
+          "The cost of on-campus housing depends on the type of accommodation you choose.",
+          "Yes, we offer a shuttle service to and from campus for students who live off-campus.",
+          "There are several off-campus housing options available near the campus, including apartments and shared housing."
+        ]
+      },
+      {
+        "tag": "Career Services Patterns",
+        "patterns": [
+          "What kind of career services does the college offer?",
+          "Are there any internship opportunities available?",
+          "How can I prepare for a job interview?",
+          "What are the employment prospects for graduates?",
+          "Is there a career fair held on campus?"
+        ],
+        "responses": [
+          "We offer career counseling, resume writing, and job search assistance to students.",
+          "Yes, we have internship opportunities available with local businesses and organizations.",
+          "Our career services team can provide mock interviews and interview preparation tips to students.",
+          "Our graduates have a high employment rate and are highly sought after by employers in their fields.",
+          "Yes, we hold an annual career fair on campus where students can meet with potential employers."
+        ]
+      },
+
+      {
+        "tag": "Financial Aid Patterns",
+        "patterns": [
+          "What kind of financial aid is available to students?",
+          "How can I apply for financial aid?",
+          "What are the eligibility requirements for financial aid?",
+          "What is the deadline for applying for financial aid?",
+          "How much financial aid can I receive?"
+        ],
+        "responses": [
+          "We offer a variety of financial aid options, including scholarships, grants, and loans.",
+          "You can apply for financial aid by filling out a FAFSA form.",
+          "The eligibility requirements for financial aid vary depending on the type of aid you are applying for.",
+          "The deadline for applying for financial aid is typically in the month of June.",
+          "The amount of financial aid you can receive depends on your financial need and academic merit."
+        ]
+      },
+
+      {
+        "tag": "admission",
+        "patterns": [
+          "How do I apply for admission?",
+          "What is the admission process?",
+          "When does admission start?"
+        ],
+        "responses": [
+          "You can apply for admission online on our website.",
+          "The admission process starts in May every year. Keep an eye on our website for updates.",
+          "For detailed information about the admission process, visit our website."
+        ]
+      },
+      {
+        "tag": "accommodation",
+        "patterns": [
+          "Is on-campus accommodation available?",
+          "What are the accommodation options?",
+          "How much does accommodation cost?"
+        ],
+        "responses": [
+          "Yes, we offer on-campus accommodation.",
+          "We have different types of accommodation options available, including shared rooms, single rooms, and apartments.",
+          "The cost of accommodation varies depending on the type of accommodation you choose. For detailed information, visit our website."
+        ]
+      },
+      {
+        "tag": "scholarship requirements",
+        "patterns": [
+          "What are the requirements for getting a scholarship?",
+          "How do I qualify for a scholarship?"
+        ],
+        "responses": [
+          "To qualify for a scholarship, you must meet certain academic and/or financial requirements.",
+          "The requirements for getting a scholarship vary depending on the scholarship program. For detailed information, visit our website or contact our scholarship office."
+        ]
+      },
+      {
+        "tag": "admission requirements",
+        "patterns": [
+          "What are the admission requirements?",
+          "What are the minimum requirements for admission?"
+        ],
+        "responses": [
+          "The admission requirements vary depending on the program you are applying for. Generally, you must have a high school diploma or equivalent, meet certain academic requirements, and submit your test scores.",
+          "For detailed information about the admission requirements, visit our website or contact our admissions office."
+        ]
+      },
+      {
+        "tag": "faculty",
+        "patterns": [
+          "Who are the faculty members?",
+          "What is the faculty like?"
+        ],
+        "responses": [
+          "Our faculty members are highly qualified and experienced professionals who are passionate about teaching.",
+          "The faculty members are dedicated to providing quality education and helping students achieve their academic goals."
+        ]
+      },
+      {
+        "tag": "class schedule",
+        "patterns": [
+          "What is the class schedule?",
+          "What are the class timings?"
+        ],
+        "responses": [
+          "The class schedule varies depending on the program and the semester. For detailed information, check your course syllabus or contact your instructor.",
+          "The class timings may vary depending on the program and the semester. For detailed information, check your course syllabus or contact your instructor."
+        ]
+      },
+      {
+        "tag": "campus tour",
+        "patterns": [
+          "Can I schedule a campus tour?",
+          "What are the campus tour timings?"
+        ],
+        "responses": [
+          "Yes, you can schedule a campus tour by contacting our admissions office.",
+          "The campus tour timings may vary depending on the season and the availability of tour guides. For detailed information, contact our admissions office."
+        ]
+      },
+      {
+        "tag": "student life",
+        "patterns": [
+          "What is student life like?",
+          "What extracurricular activities are available?"
+        ],
+        "responses": [
+          "Student life is vibrant and diverse, with a range of extracurricular activities and clubs to choose from.",
+          "We offer a variety of extracurricular activities and clubs, including sports, music, drama, and community service."
+        ]
+      },
+
+      {
+        "tag": "Admission Request",
+        "patterns": [
+          "How do I apply for admission?"
+        ],
+        "responses": [
+          " You can apply for admission by filling out our online application form on our website."
+        ]
+      },
+      {
+        "tag": "Eligibility Request",
+        "patterns": [
+          "What are the eligibility criteria for admission?"
+        ],
+        "responses": [
+          "The eligibility criteria for admission vary depending on the course you are applying for. Please visit our website for more information."
+        ]
+      },
+
+      {
+        "tag": "Deadline Request",
+        "patterns": [
+          "What are the application deadlines?"
+        ],
+        "responses": [
+          "The application deadlines vary depending on the course you are applying for. Please visit our website for more information."
+        ]
+      },
+
+      {
+        "tag": "Fees Request",
+        "patterns": [
+          " How much are the tuition fees?"
+        ],
+        "responses": [
+          "The tuition fees vary depending on the course you are applying for. Please visit our website for more information."
+        ]
+      },
+      {
+        "tag": "Financial Aid Request",
+        "patterns": [
+          "What kind of financial aid is available?"
+        ],
+        "responses": [
+          "We offer a variety of financial aid options for eligible students, including scholarships, grants, and loans. Please visit our website for more information."
+        ]
+      },
+
+      {
+        "tag": "Campus Life Request",
+        "patterns": [
+          "What is campus life like?"
+        ],
+        "responses": [
+          "Our campus offers a vibrant and diverse community of students, faculty, and staff. We have a variety of clubs and organizations, as well as events and activities throughout the year."
+        ]
+      },
+
+      {
+        "tag": "Housing Request",
+        "patterns": [
+          "Do you offer on-campus housing?"
+        ],
+        "responses": [
+          "Yes, we offer a variety of on-campus housing options for students. Please visit our website for more information."
+        ]
+      },
+
+      {
+        "tag": "Dining Request",
+        "patterns": [
+          " What dining options are available on campus?"
+        ],
+        "responses": [
+          "We have a variety of dining options on campus, including cafes, restaurants, and dining halls. We also offer vegetarian and vegan options."
+        ]
+      },
+      {
+        "tag": "Academic Program Request",
+        "patterns": [
+          " What academic programs do you offer?"
+        ],
+        "responses": [
+          "We offer a variety of academic programs in fields such as business, education, engineering, health sciences, and more. Please visit our website for more information."
+        ]
+      },
+      {
+        "tag": "Majors Request",
+        "patterns": [
+          " What majors are available?"
+        ],
+        "responses": [
+          "We offer a variety of majors in fields such as accounting, biology, computer science, psychology, and more. Please visit our website for more information."
+        ]
+      },
+      {
+        "tag": "Minors Request",
+        "patterns": [
+          " What minors are available?"
+        ],
+        "responses": [
+          "We offer a variety of minors in fields such as art history, communication studies, environmental science, and more. Please visit our website for more information."
+        ]
+      },
+
+
+      {
+        "tag": "Faculty Request",
+        "patterns": [
+          "Who are the faculty members?"
+        ],
+        "responses": [
+          "We offer a variety of minors in fields such as art history, communication studies, environmental science, and more. Please visit our website for more information."
+        ]
+      },
+      {
+        "tag": "Developer",
+        "patterns": [
+          "Who is the Developer of chatbot"
+        ],
+        "responses": [
+          "MR. Nikhil Bonde "
+        ]
+      },
+
+      {
+        "tag": "Co ",
+        "patterns": [
+          "Who is the Co Developer of chatbot"
+        ],
+        "responses": [
+          "MR. Gaurav Sanap "
+        ]
+      },
+
+      {
+        "tag": "Team",
+        "patterns": [
+          "Names of the Team Member"
+        ],
+        "responses": [
+          "Rajashree G. Supe\nGaurav S. Sanap\nNikhil P. Bonde\nAnkit V. Dhakane "
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,220 @@
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/chatbot.css' %}">
+    <link rel="stylesheet" href="{% static 'css/chat.css' %}">
+    <link rel="stylesheet" href="{% static 'css/typing.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="header" style="background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url({% static 'images/banner.png' %}); ">
+
+        <nav>
+            <a href="{% url 'Home-page' %} "><img src="{% static 'images/logo.png' %}"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="{% url 'Home-page' %}">HOME</a></li>
+                    <li><a href="{% url 'about-page' %}">ABOUT </a></li>
+                    <li><a href="{% url 'course-page' %}">COURSE</a></li>
+                    <li><a href="{% url 'blog-page' %}">BLOG</a></li>
+                    <li><a href="{% url 'contact-page' %}">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Eduford University</h1>
+            <p>Making website is now one of the easiest thing in the world. You just need to learn HTML, CSS,<br>Javascript and you are good to go.</p>
+            <a href="{% url 'contact-page' %}" class="hero-btn">Visit Us to Know More</a>
+        </div>
+    </section>
+
+    <!---------- course ----------->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet, consecrate disciplining elit.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet, consecrate adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet, consecrate disciplining elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+        </div>
+    </section>
+
+    <!---------- campus ---------->
+
+    <section class="campus">
+        <h1>Our Global campus</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="{% static 'images/london.png' %}">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="{% static 'images/newyork.png' %}">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="{% static 'images/washington.png' %}">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------- Facilities ---------->
+
+    <section class="facility">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="row">
+            <div class="facility-col">
+                <img src="{% static 'images/library.png' %}">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+            </div>
+            <div class="facility-col">
+                <img src="{% static 'images/basketball.png' %}">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+            </div>
+            <div class="facility-col">
+                <img src="{% static 'images/cafeteria.png' %}">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!---------- testimonials ---------->
+
+    <section class="testimonials">
+        <h1>What Our Student Says</h1>
+        <p>Lorem ipsum dolor sit amet, consecrate disciplining elit.</p>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="static/images/user1.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+                    <h3>Christine Berkley</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="static/images/user2.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+                    <h3>David Byer</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!------ Call To Action ------>
+
+    <section class="cta" style="background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url({% static 'images/banner2.jpg' %}) ">
+
+        <h1>Enroll For Our Various Online Courses<br>Anywhere From The World</h1>
+        <a href="{% url 'contact-page' %}" class="hero-btn">CONTACT US</a>
+
+    </section>
+
+    <!-------- footer ---------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consecrate disciplining elit. Interpellates aliquot turps null, effendi faucets est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+        <div class="icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+
+        </div>
+        <a href=" #" class="footer-link">
+            <p>made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+        </a>
+    </section>
+
+    <div class="container">
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header">Chat support</h4>
+                        <!-- <p class="chatbox__description&#45;&#45;header">Hi. My name is Sam. How can I help you?</p>-->
+                    </div>
+                </div>
+                <div class="chatbox__messages">
+                    <div></div>
+                </div>
+                <div class="chatbox__footer">
+                    <input type="text" placeholder="Write a message...">
+                    <button type="submit" class="chatbox__send--footer send__button">Send</button>
+                </div>
+            </div>
+            <div class="chatbox__button">
+                <button><img src="{% static 'images/chatboxicon.svg' %}" /></button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+       var script_root = "{{ SCRIPT_ROOT }}";
+    </script>
+    <script src="{% static 'js/app.js' %}"></script>
+
+    <!----JavaScript for toggle menu---->
+    <script>
+        var navLinks = document.getElementById('navLinks');
+
+        function showMenu() {
+            navLinks.style.right = '0';
+        }
+
+        function hideMenu() {
+            navLinks.style.right = '-200px';
+        }
+    </script>
+
+
+</body>
+
+</html>
